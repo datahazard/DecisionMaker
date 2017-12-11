@@ -6,7 +6,7 @@ import React from 'react';
 // component would be "<Unknown></Unknown>" in React DevTools.
 
 const Option = (props) => (
-      <div>
+      <div className="option">
           {props.optionText}
           <button
               className="button button--link"
